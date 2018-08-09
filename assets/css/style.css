@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .max-width {
-    max-width: 960px;
+    max-width: 750px;
     margin: 0px auto;
 }
 
@@ -30,7 +30,7 @@ header, #header {
     background-color: #fff;
     /* border: 1px solid #ccc; */
     border: 1px solid #222;
-    height: 75px;
+    /* height: 75px; */
 }
 
 #home-link {
@@ -47,6 +47,7 @@ header, #header {
 #nav {
     float: right;
     line-height: 75px;
+    height: 75px;
 }
 #nav li {
     display: inline;
@@ -182,4 +183,46 @@ header, #header {
 .portfolio-card-div {
     height: 100%;
     position: relative;
+}
+
+
+
+/* media queries */
+@media ( max-width: 980px ) {
+
+}
+
+
+@media ( max-width: 768px ) {
+
+}
+
+
+@media ( max-width: 640px ) {
+    #header {
+        background-color: #4aaaa5;
+        text-align: center;
+    }
+    #nav {
+        float: none;
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        font-size: 1em;
+    }
+    #body {
+        max-width: 95%;
+    }
+    #home-link {
+        /* border: 1px solid red; */
+    }
+    #profilePic {
+        width: 100%;
+        margin: 10px auto;
+        float: none;
+        display: block;
+    }
+    #aboutMe {
+        /* border: 1px solid red; */
+    }
 }
