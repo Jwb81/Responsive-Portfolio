@@ -220,7 +220,7 @@ header, #header {
 }
 
 
-@media ( max-width: 640px ) {
+@media screen and ( max-width: 640px ) {
     #header {
         background-color: #4aaaa5;
         text-align: center;
